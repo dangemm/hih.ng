@@ -1,13 +1,56 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
 <head>
-  <meta charset="utf-8">
-  <title>MainSite</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Harmony Innovation Hub</title>
+	<base href="/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Samuel Adeshina <samueladeshina73@gmail.com>" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/dark.css" type="text/css" />
+
+	<link rel="stylesheet" href="assets/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+
+	<link rel="stylesheet" href="assets/css/theme-fonts.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/theme.css" type="text/css" />
 </head>
-<body>
-  <app-root></app-root>
+<body class="stretched"> <!-- adaptive-color-scheme -->
+	<div id="wrapper" class="clearfix">
+		<app-root></app-root>
+	</div>
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/functions.js"></script>
+
+	<div class="modal fade hubspot-meeting-modal" tabindex="-1" role="dialog" aria-labelledby="scheduleMeetingModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-body">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="scheduleMeetingLabel">Schedule a meeting</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					</div>
+					<div class="modal-body">
+						<!-- Start of Meetings Embed Script -->
+					    <div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/samueladeshina73?embed=true"></div>
+					    <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+					  	<!-- End of Meetings Embed Script -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Start of HubSpot Embed Code -->
+  	<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9113346.js"></script>
+	<!-- End of HubSpot Embed Code -->
 </body>
 </html>

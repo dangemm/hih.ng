@@ -1,0 +1,34 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+-----------------------------------------------------------------*/
+
+
+.text-green {
+	color: #8FC93A !important;
+	font-weight: 800;
+}
+
+.text-dark: {
+	color: #011627 !important;
+}
+
+.subscribe-form > input {
+	background-color: #fff !important;
+	height: calc(1.5em + 0.75rem + 10px);
+}
+
+.bg-yellow {
+	background-color: #FFCB47 !important;
+}
+
+.bg-green {
+	background-color: #8FC93A !important;
+}
+
+.bg-transparent {
+	background-color: transparent !important;
+}
+
+.border-green {
+	border: 1px solid #8FC93A !important;
+}
